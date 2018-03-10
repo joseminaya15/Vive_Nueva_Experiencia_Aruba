@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Aruba, a Hewlett Packard Enterprise Company</title>
+        <link href="http://www.marketinghp.net/microsites/aruba/nuevo/images/aruba.ico" rel="shortcut icon" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></head>
+        <link href="css/aruba.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <div class="container"> <img src="images/logo_Aruba.png" alt="Aruba, a Hewlett Packard Enterprise Company" id="logo" > </div>
+        </header>
+        <section id="imagen">
+            <div class="overlay"></div>
+            <div class="container">
+                <h3>Conéctese con Aruba:<br> Una experiencia superior en redes empresariales</h3>
+            </div>
+        </section>
+        <section id="formulario">
+            <div class="container">
+              <form id="frmRegistro" name="frmRegistro" action="" method="post">
+          		<div class="row">
+          			<div class="col-12" style="padding-bottom: 30px;padding-right: 30px"><h3 class="registro1" style="text-align: center; padding-left: 30px">Aproveche el único portafolio de soluciones de red diseñado para potenciar aún más su negocio. Comparta un agradable momento con nosotros conociendo nuestra marca y el portafolio de soluciones que ofrecemos, así como nuestro plan de negocio para canales y el tipo de soporte te ofrecemos para ayudarle a impulsar sus ventas como Partner de Aruba. Lo esperamos.</h3><br>
+                  <div class="row">
+                      <div class="col">
+                          <select class="form-control" id="selCiudad" name="selCiudad" onchange="cambiarLugar()">
+                              <option value=""> ---Selecione Ciudad---</option>
+                              <option value="Torreon">Torre&oacute;n, 3 de abril 2018</option>
+                              <option value="Saltillo">Saltillo, 5 de abril 2018</option>
+                              <option value="Morelia">Morelia, 18 de abril 2018</option>
+                        			<option value="Cuernavaca">Cuernavaca, 25 de abril 2018</option>
+                        			<option value="CDMX1">CDMX, 8 de Mayo 2018</option>
+                              <option value="CDMX2">CDMX, 9 de Mayo 2018</option>
+                              <option value="CDMX3">CDMX, 16 de Mayo 2018</option>
+                              <option value="CDMX4">CDMX, 17 de Mayo 2018</option>
+                              <option value="Pachuca">Pachuca, 23 de Mayo 2018</option>
+                              <option value="Monterrey">Monterrey, 29 de Mayo 2018</option>
+                              <option value="Tampico">Tampico, 31 de Mayo 2018</option>
+                          </select>
+                      </div>
+                  </div>
+                  <div class="row contenido-evento">
+                      <div id="card-evento" class="mdl-card">
+                          <h3></h3>
+                          <h2><a href="" target="_blank"></a></h2>
+                          <p></p>
+                          <a href="#" data-toggle="modal" data-target="#modalMap">Ver mapa</a>
+                      </div>
+                      <h2 class="title-agenda">Agenda</h2>
+                      <div class="table-responsive">
+                          <table class="table">
+                              <tbody>
+                                  <tr>
+                                      <td>7:45 - 8:00</td>
+                                      <td>Registro</td>
+                                  </tr>
+                                  <tr>
+                                      <td>8:00 - 8:15</td>
+                                      <td><strong>Desayuno y Bienvenida</strong></td>
+                                  </tr>
+                                  <tr>
+                                      <td>8:15 - 8:30</td>
+                                      <td>Introducci&oacute;n</td>
+                                  </tr>
+                                  <tr>
+                                      <td>8:30 - 9:40</td>
+                                      <td>Presentaci&oacute;n Aruba (Visi&oacute;n, Soluciones Demos)</td>
+                                  </tr>
+                                  <tr>
+                                      <td>9:40 - 10:50</td>
+                                      <td>Presentación de Nuestro Socio de Negocios</td>
+                                  </tr>
+                                  <tr>
+                                      <td>10:50 - 11:00</td>
+                                      <td><strong>Cierre</strong></td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                      </div>
+                  </div>
+                  <h3 class="registro">Regístrese completando el siguiente formulario:</h3>
+                  <div class="row">
+                      <div class="col">
+                          <div class="form-group">
+                              <label for="txtNombre" class="form-control-label ">Nombres</label>
+                              <input type="text" id="txtNombre" name="txtNombre" class="form-control" maxlength="50" >
+                          </div>
+                      </div>
+                      <div class="col">
+                          <div class="form-group">
+                              <label for="txtApellido" class="form-control-label">Apellidos</label>
+                              <input type="text" id="txtApellido" name="txtApellido" class="form-control" maxlength="50" >
+                          </div>
+                      </div>
+                      <div class="col">
+                          <div class="form-group">
+                              <label for="txtEmail" class="form-control-label">E-mail empresarial</label>
+                              <input type="email" id="txtEmail" name="txtEmail" class="form-control" maxlength="100" >
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col">
+                          <div class="form-group">
+                              <label for="txtTelefono" class="form-control-label">Telefono</label>
+                              <input type="text" id="txtTelefono" name="txtTelefono" class="form-control" maxlength="50" >
+                          </div>
+                      </div>
+                      <div class="col">
+                          <div class="form-group">
+                              <label for="txtEmpresa" class="form-control-label">Empresa</label>
+                              <input type="text" id="txtEmpresa" name="txtEmpresa" class="form-control" maxlength="100" >
+                          </div>
+                      </div>
+                      <div class="col">
+                          <div class="form-group">
+                              <label for="txtCargo" class="form-control-label">Cargo</label>
+                              <input type="text" id="txtCargo" name="txtCargo" class="form-control" maxlength="50" >
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col">
+                          <div class="form-group">
+                              <label for="txtCiudad" class="form-control-label">Ciudad</label>
+                              <input type="text" id="txtCiudad" name="txtCiudad" class="form-control" maxlength="50" >
+                          </div>
+                      </div>
+                      <div class="col">
+                          <div Class="form-group">
+              								<Label for="ddlRelacion" class="form-control-label">Relación con Aruba</Label>
+                              <select class="form-control" id="ddlRelacion" name="ddlRelacion">
+              										<option value="">--Seleccione--</option>
+              										<option value="Cliente"> Cliente</option>
+              										<option value="Prospecto"> Prospecto</option>
+              										<option value="Partner"> Partner</option>
+              										<option value="Distribuidor"> Distribuidor</option>
+              										<option value="Periodista"> Periodista</option>
+              										<option value="Empleado"> Empleado</option>
+              										<option value="Otro"> Otro</option>
+              								</select>
+              						</div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col">
+                          <button type="submit" class="btn">Enviar</button>
+                      </div>
+                  </div>
+              </form>
+              <div class="thanks"><b>GRACIAS POR SU CONFIRMACIÓN.</b><br>Lo esperamos</div>
+            </div>
+        </section>
+        <footer>
+            <p class="legal">Copyright © 2018. Aruba, a Hewlett Packard Enterprise company. Todos los derechos reservados </p>
+        </footer>
+        <!--MODAL-->
+        <div class="modal fade" id="modalMap" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-md text-center">
+                <div class="modal-content">
+                    <div class="mdl-card">
+                        <div class="google-maps">
+                            <iframe src=""></iframe>
+                        </div>
+                    </div>
+                    <div class="mdl-card__actions text-right">                    
+                        <button class="btn btn-primary" data-dismiss="modal">X</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
